@@ -1,0 +1,17 @@
+# Python
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Environments
+.env
+
+# Large Files (โมเดลและข้อมูลมักจะใหญ่เกิน 100MB ซึ่ง GitHub ไม่รองรับแบบปกติ)
+inference-service/models/*.keras
+inference-service/models/rice_model_tf/
+dataset/
+
+# OS files
+.DS_Store
+Thumbs.db
